@@ -13,8 +13,8 @@
 
 <body>
     <header class="header">
-        <div class="container">
-
+        <div class="progress">
+            <progress id="js-progressbar" value="" max="100"></progress>
         </div>
     </header>
 
@@ -22,7 +22,15 @@
         <div class="container">
             <div class="chapters-block">
                 <div id="about" class="section-chapter">
-                    <h1 class="h1 color-bg">CV</h1>
+                    <div class="logo-block">
+                        <img src="./img/photo_6.JPG" alt="" class="photo">
+                        <img src="./img/logo_transparent.png" alt="" class="logo">
+
+                    </div>
+                    <h1 class="h1 color-bg">CV
+                    </h1>
+                    <h1 class="h2">Professional <span>Summary</span>
+                    </h1>
                     <div class="flex">
                         <div class="description">
                             I have 3+ years of Web Development experience. My main superpower - I solve problems and
@@ -122,16 +130,98 @@
                         the borders to finally open after the global pandemic.
                     </div>
                 </div>
-                <div id="works" class="section-chapter">
-                    <h1 class="h1">Test</h1>
+                <div id="works" class="section-chapter wider">
+                    <h1 class="h1 color-bg">My works</h1>
+                    <div class="description">
+                        In this section I want to present you some of my work. To each collage I attach a link to the
+                        site and a short description to it
+                    </div>
+                    <div class="works-container">
+
+                        <a href="https://uchdenture.com/kitchen/home.php" target="blank" class="work-block">
+                            <img src="./img/work-8.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Website for the presentation of manufactured kitchens. The
+                                    design and development of the site is completely done by me</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://signup.joinswitch.com/dtc-v2/" target="blank" class="work-block">
+                            <img src="./img/work-1.png" alt="">
+                            <div class="work-description">
+                                <div class="description">The jewelry site is made using the CMS system</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://camden-live.com/" target="blank" class="work-block">
+                            <img src="./img/work-2.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Bright Camden Live site is designed to attract more people to
+                                    the incredible music scene</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://olenakol.github.io/mogoKO.github.io/#" target="blank" class="work-block">
+                            <img src="./img/work-3.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Simple and attractive landing page</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://kingdomlens.com.ua/" target="blank" class="work-block">
+                            <img src="./img/work-4.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Online store of eye lenses</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://modernfashionlife.com/" target="blank" class="work-block">
+                            <img src="./img/work-5.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Modern simple site for a local beauty studio</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://reliefseeker.com/" target="blank" class="work-block">
+                            <img src="./img/work-7.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Reliefseeker is an online healthcare publication with the
+                                    largest directory of telehealth companies in America.</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                        <a href="https://rn3.websales360.com/page-index.php" target="blank" class="work-block">
+                            <img src="./img/work-6.png" alt="">
+                            <div class="work-description">
+                                <div class="description">Returnseeker an online gaming publication covering the legal
+                                    online sports betting and casino industry in the USA</div>
+                                <div class="work-btn">wisit site</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div id="contact" class="section-chapter">
+                <div id="contact" class="section-chapter wider">
+                    <h1 class="h1 color-bg">Get In Touch</h1>
+                    <div class="contact-container">
+                        <div class="contact-block">
+                            <div class="contact-title">Contact</div>
+                            <a href="mailto: olena.kolibanuch@gmail.com"
+                                class="contact-link">olena.kolibanuch@gmail.com</a>
+                            <a href="tel:+380931573244" class="contact-link">+380931573244</a>
+                            <a href="skype:example123?chat" class="contact-link">Skype: live:.cid.55a08d31816d366c</a>
+                        </div>
+
+                        <div class="contact-block">
+                            <div class="contact-title">Based in</div>
+                            <div class="contact-link">Lviv, Ukraine</div>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div class="nav">
-                    <img src="./img/photo_2.png" alt="" class="photo">
-
+                    <img src="./img/logo_transparent.png" alt="" class="photo">
+                    <img src="./img/photo_6.JPG" alt="" class="photo">
                     <button class="nav-btn" onclick="openCity(event, 'about')" id="defaultOpen">About</button>
                     <button class="nav-btn" onclick="openCity(event, 'works')">My Works</button>
                     <button class="nav-btn" onclick="openCity(event, 'contact')">Get it tuch</button>
